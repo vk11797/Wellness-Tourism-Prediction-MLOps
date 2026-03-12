@@ -20,7 +20,7 @@ try:
     # This pushes app.py, requirements.txt, and the Dockerfile to the root of the Space
     print("📤 Uploading application files...")
     api.upload_folder(
-        folder_path="tourism_project/deployment",
+        folder_path="deployment",
         repo_id=REPO_ID,
         repo_type="space",
         path_in_repo=""  # Files go to the root of the Space
